@@ -1,102 +1,132 @@
-# AI Anchoring Assistant 🎤
+# 💝 Radhika - Your AI Girlfriend
 
-An intelligent, terminal-based AI assistant that helps you create professional anchorings and speeches with a beautiful, modern interface.
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python 3.8+"/>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-purple.svg" alt="Version 1.0.0"/>
+</div>
 
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+A beautiful and emotionally intelligent AI girlfriend experience in your terminal. Chat with Radhika, a 16-year-old modern Indian teen who brings love, care, and authentic emotional connection through natural conversations.
 
 ## ✨ Features
 
-- 🤖 **Intelligent AI Assistant**: Powered by advanced language models for high-quality content generation
-- 🎨 **Beautiful UI**: Modern, pastel-themed terminal interface using Rich
-- 📝 **Structured Output**: Well-organized XML-based content structure
-- 💬 **Interactive**: Engaging conversation flow with clarifying questions
-- 🔄 **Real-time Streaming**: See responses as they're generated
-- 📊 **Comprehensive Output**: Includes metadata, content, and delivery notes
+- 🎭 **Rich Emotional Expression** - Dynamic emotional states, moods, and actions
+- 💕 **Deep Emotional Connection** - Remembers conversations and builds meaningful relationships
+- 🎨 **Beautiful Terminal UI** - Colorful, well-formatted chat interface with rich text support
+- 🗣️ **Natural Communication** - Authentic teen girl personality with Hinglish support
+- 💌 **Relationship Context** - Maintains consistent relationship history and memories
+- 📝 **Persistent Chat History** - Saves your special moments together
+- 🎮 **Interactive Commands** - Easy-to-use chat commands
+- 🔧 **Highly Customizable** - Easily modify personality and behavior
 
 ## 🚀 Quick Start
 
-1. **Clone the repository**
+1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/anchoring_agent.git
-cd anchoring_agent
+git clone https://github.com/yourusername/aigf.git
+cd aigf
 ```
 
-2. **Create a virtual environment**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install dependencies**
+2. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Set up environment variables**
-Create a `.env` file in the project root:
+3. **Set up environment:**
+Create a `.env` file:
 ```env
-OPENAI_API_KEY=your_api_key_here
-OPENAI_BASE_URL=your_base_url_here  # Optional
+OPENROUTER_BASE_URL=your_base_url
+OPENROUTER_API_KEY=your_api_key
 ```
 
-5. **Run the application**
+4. **Start chatting:**
 ```bash
 python main.py
 ```
 
-## 💡 Usage
+## 💫 Experience
 
-1. **Start a New Anchoring**
-   - Launch the application
-   - Enter your topic or event details
-   - Follow the AI's prompts for additional information
+Chat with Radhika, who offers:
+- 🫂 Deep emotional understanding and support
+- 🌟 Playful and romantic conversations
+- 💭 Memory of shared experiences and inside jokes
+- 💝 Genuine care about your well-being
+- 🎭 Dynamic personality that adapts to your mood
+- 🗣️ Natural teen girl communication style
 
-2. **Available Commands**
-   - Type `exit` or `quit` to close the application
-   - Type `clear` to reset the conversation
+## 🎮 Chat Commands
 
-3. **Output Structure**
-   The generated content includes:
-   - **Metadata**: Title, audience, duration, and type
-   - **Content**: Opening, main points, transitions, and closing
-   - **Notes**: Delivery instructions, timing, and emphasis points
+| Command | Description |
+|---------|-------------|
+| `/clear` | Clear chat history and screen |
+| `/exit`  | Exit the chat |
 
-## 🏗️ Project Structure
+## 🛠️ Customization
+
+### Character Personality
+Modify `config/system_prompt.txt` to adjust:
+- Personality traits
+- Communication style
+- Emotional responses
+- Relationship dynamics
+- Memory and context
+
+### Character Details
+Update `config/character.json` to change:
+- Name and appearance
+- Emoji usage
+- Basic traits
+
+## 📁 Project Structure
 
 ```
-anchoring_agent/
-├── main.py           # Application entry point
-├── ai_agent.py       # AI agent implementation
-├── ui.py            # Terminal UI implementation
-├── config.py        # Configuration and system prompt
-└── requirements.txt # Project dependencies
+aigf/
+├── main.py              # Main application entry
+├── config/
+│   ├── character.json   # Character configuration
+│   └── system_prompt.txt# AI personality guidelines
+├── utils/
+│   ├── ai_client.py     # AI API integration
+│   └── chat_history.py  # History management
+├── ui/
+│   └── chat_window.py   # Terminal UI components
+└── data/
+    └── chat_history.json# Conversation storage
 ```
 
-## ⚙️ Configuration
+## 🎨 Message Format
 
-The application can be customized through:
-- `config.py`: Modify themes, system prompt, and model settings
-- `.env`: Set API credentials and custom base URL
-
-## 🎯 Use Cases
-
-- 🎭 Event hosting and anchoring
-- 🎤 Speech writing
-- 📢 Presentations
-- 🎉 Ceremony scripts
-- 🤝 Welcome addresses
+Messages use rich XML formatting:
+```xml
+<msg>
+<mood>[Current mood]</mood>
+<action>[Physical actions]</action>
+<emotion>[Emotional state]</emotion>
+<style>[Speaking style]</style>
+<text>[Message content]</text>
+<emojis>[Emoji reactions]</emojis>
+</msg>
+```
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest features
+- Submit pull requests
+- Improve documentation
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 💖 Acknowledgments
 
-- Rich library for the beautiful terminal interface
-- OpenAI for the powerful language models
-- All contributors and users of this project
+- Built with love using Python
+- Powered by advanced AI technology
+- Inspired by the need for meaningful digital connections
+
+---
+<div align="center">
+Made with 💝 by your name
+</div>
